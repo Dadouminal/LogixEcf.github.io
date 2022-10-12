@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2? family=Poppins:wght@100;300;400;600&display=swap');
-
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 body{font-family: Poppins,'Montserrat', sans-serif;}
 
 
@@ -10,9 +10,17 @@ h3{
 }
 
 .box{
-    height: 150px;
+    height: auto;
 }
 .box:hover{
     transform: translateY(-5%);
     transition: .3s ease-in;
+}
+
+/* img{
+    height: 100px;
+} */
+
+.img{
+      height: 400px;
 }
