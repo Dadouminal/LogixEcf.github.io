@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logix ECF</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -33,7 +35,7 @@
                      <a href="https://hackmd.io/@Dadouminal4/BkHiJ3dTY" class="button is-primary is-rounded">Consulter le mode d'emploi</a>
                  </p>
                 </div>
-                <div class="column is-5-desktop is-0-tablet is-0-mobile">
+                <div class="column is-5-desktop is-0-tablet is-0-mobile bx">
                     <img class=".img" src="./assets/boba-software-developer-workplace.png" alt="img de logiciel">
                 </div>
             </div>
@@ -42,8 +44,8 @@
     <section class="section">
       
         <h1 class="is-size-2 has-text-centered py-2">Prélude du logiciel</h1>
-        <div class="columns">
-            <div class="column">
+        <div class="columns is-multiline">
+            <div class="column " data-aos="fade-down">
                 <div class="box is-flex is-flex-direction-column">
                     <span class="icon-text">
 
@@ -58,7 +60,7 @@
                     <p class="content">Le logiciel est sécurisé et activable à partir d'un seul poste</p>
                 </div>
             </div>
-            <div class="column">
+            <div class="column" data-aos="fade-down">
                 <div class="box is-flex is-flex-direction-column">
                     <span class="icon-text">
 
@@ -73,7 +75,7 @@
                     <p class="content">Une rapidité de production des états financiers hors paires. En quelques clics, vous obtenez votre liasse complète</p>
                 </div>
             </div>
-            <div class="column">
+            <div class="column " data-aos="fade-down">
                 <div class="box is-flex is-flex-direction-column">
                     <span class="icon-text">
                         <span class="material-icons-outlined has-text-info">
@@ -86,7 +88,7 @@
                     <p class="content">Vous disposez d'une multitude de contrôles effectués afin de garantir la fiabilité des informations financières produites</p>
                 </div>
             </div>
-            <div class="column">
+            <div class="column" data-aos="fade-down">
                 <div class="box is-flex is-flex-direction-column">
                    <span class="icon-text">
                     <span class="material-icons-outlined has-text-danger">
@@ -127,7 +129,7 @@
                     <i class='bx bxl-meta'></i>
 
                 </span>
-                <span><a href="#">Rejoignez sur facebook</a></span>
+                <span><a href="https://www.facebook.com/Logixexperts">Rejoignez sur facebook</a></span>
             </span>
             <span class="icon-text">
                 <span class="icon">
@@ -135,7 +137,7 @@
 
                     <i class='bx bxl-telegram'></i> 
                 </span>
-                <span><a href="#">Rejoignez sur Télégram</a></span>
+                <span><a href="https://t.me/LOGIXEXPERTS">Rejoignez sur Télégram</a></span>
             </span>
 
         </div>
@@ -146,5 +148,9 @@
 
 
     <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
